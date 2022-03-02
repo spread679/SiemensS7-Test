@@ -1,0 +1,13 @@
+.vs/
+**/.vs/
+**/bin/
+*.bak
+*.log
+**/log/
+**/obj/
+**/Release/
+**/Debug/
+
+*.exe
+*.msi
+*.pubxml.user
