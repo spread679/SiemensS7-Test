@@ -12,9 +12,9 @@ Set your PLC changing:
 * CPU type.
 
 Once you have done, connect with it. If everythings goes right you'll see the red circle turn in green and a succeful message at the bottom.
-Now that you are connected to the PLC you can read or write to the nodes (**NB** In *PLC Settings* there is a checkbox that you allow to change the task, if you need to read, uncheck it, otherwise check it).
+Now that you are connected to the PLC you can read or write to the nodes (**NB** In *PLC Settings* there is a checkbox that allow you to change the task, if you need to read, uncheck it, otherwise check it).
 
-If you need to read, there are more fiels to fill, for example your node is DB1000.DBB140:
+If you need to read, there are more fields to fill, for example your node is DB1000.DBB140:
 
 * Data type: select *Data Block*;
 * DB: 1000;
