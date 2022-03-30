@@ -46,7 +46,7 @@ namespace SiemensTest
 
                     _S71200.Write(nodo, content);
                     this.outputTexBlock.Text = string.Concat("All'indirizzo: ", _S71200.IP, " al nodo: ", nodo, " è stato inviato: ", content);
-                    this.outputTexBlock.Foreground = Brushes.White;
+                    this.outputTexBlock.Foreground = Brushes.Green;
                 }
                 else
                 {
@@ -79,7 +79,7 @@ namespace SiemensTest
                     {
                         var valore = _S71200.Read(dataType, db, startByte, varType, varCount);
                         this.outputTexBlock.Text = string.Concat("All'indirizzo: ", _S71200.IP, " è stato letto: ", valore.ToString());
-                        this.outputTexBlock.Foreground = Brushes.White;
+                        this.outputTexBlock.Foreground = Brushes.Green;
                     }
                     else
                     {
@@ -90,7 +90,7 @@ namespace SiemensTest
                 else
                 {
                     this.outputTexBlock.Text = "Not connected to PLC";
-                    this.outputTexBlock.Foreground = Brushes.Red;
+                    this.outputTexBlock.Foreground = Brushes.Yellow;
                 }
             }
             catch (Exception ex)
